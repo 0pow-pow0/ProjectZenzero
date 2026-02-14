@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - WeaponPivot
+  - ColliderWrapper
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - InGameUI
+  - Water
+  - UI
+  - PlayerMesh
+  - TerrenoMesh
+  - PercorsoMesh
+  - meleeWeaponHitboxCollider
+  - playerBodyCollider
+  - playerProjectileHitboxCollider
+  - mouseRayCastPlane
+  - Cards
+  - enemyBodyCollider
+  - enemyProjectileCollider
+  - EXPGatherCollider
+  - Map
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class xx : PlayerBaseState
+{
+    public xx() :
+        base("Idle")
+    {
+
+    }
+
+    public override bool VerifySwitchConditions(PlayerFSM p)
+    {
+        return true;
+    }
+
+    public override void InitState(PlayerFSM p)
+    {
+        //p.plrScr.anim
+    }
+
+    public override void UpdateState(PlayerFSM p)
+    {
+        
+    }
+
+    public override void FixedUpdateState(PlayerFSM p)
+    {
+
+    }
+
+    public override void ExitState(PlayerFSM p)
+    {
+        //p.anim.plrScr
+    }
+}
